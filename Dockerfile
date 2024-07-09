@@ -7,7 +7,7 @@ ENV PATH /opt/conda/bin:$PATH
 COPY environment.yml /app/environment.yml
 RUN conda env create -f /app/environment.yml
 
-RUN /bin/bash -c "source activate python_env && conda install -c conda-forge notebook"
+RUN /bin/bash -c "source activate python_env"
 
 COPY . /app
 
