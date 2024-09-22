@@ -9,7 +9,7 @@ If you want to re-train model, we reccomend to use GPU.
 
 ```shell
 git clone git@github.com:inoue0426/python_template.git
-cd drGAT
+cd python_template
 docker build -t tmp:latest .
 docker run -it -p 9999:9999 tmp:latest
 conda activate python_env
