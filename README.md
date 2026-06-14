@@ -3,7 +3,7 @@
 ## Environment
 
 Our experiment was conducted on Ubuntu with an NVIDIA A100 Tensor Core GPU.  
-If you want to re-train model, we reccomend to use GPU.
+If you want to re-train model, we recommend using a GPU.
 
 ## Installation using Docker
 
